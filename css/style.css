@@ -21,6 +21,19 @@ img.small {
     height: auto;
 }
 
+a {
+    text-decoration:none;
+}
+
+a:link, a:visited {
+    color: rgb(200, 150, 120);
+}
+
+a:hover, a:active {
+    background-color: rgba(255, 240, 180, 0.3);
+    color: rgba(200, 150, 120, 0.5);
+}
+
 #diary {
     margin: 2% 16% 2% 16%;
     padding: 2% 4% 3% 4%;
@@ -29,18 +42,12 @@ img.small {
     border: dashed 2px white;
 }
 
-a {
-    text-decoration:none;
+#diary a:link, a:visited {
+    color: rgb(200, 150, 120);
 }
 
-a:link, a:visited {
-    background-color: rgba(255, 240, 180, 0.3);
-    color: rgb(230, 200, 160);
-}
-
-a:hover, a:active {
-    background-color: rgba(255, 240, 180, 0.2);
-    color: rgba(230, 200, 160, 0.5);
+#diary a:link, a:visited {
+    color: rgba(200, 150, 120, 0.5);
 }
 
 @media screen and (max-width: 1024px) {
