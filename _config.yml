@@ -1,0 +1,5 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+name: 金星のこととか
+description: サークル「金星のこととか」のWebサイト

@@ -1,0 +1,226 @@
+body {
+    background-color: rgb(255, 252, 250);
+}
+
+.header {
+    margin: 10% 10% 2% 10%;
+    padding: 10% 10% 2% 10%;
+    font-family:"リュウミン R-KL";
+}
+
+.header p {
+    font-size: 0.8em;
+}
+
+.main {
+    margin: 2% 10% 2% 10%;
+    padding: 2% 10% 2% 10%;
+    font-family:"リュウミン R-KL";
+    opacity: 0;
+    animation: gentleFadeIn 0.8s ease forwards;
+}
+
+@keyframes gentleFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 各セクションを順番に表示 */
+#menu { animation-delay: 0s; }
+#diary { animation-delay: 0.1s; }
+#stories { animation-delay: 0.2s; }
+#about { animation-delay: 0.3s; }
+#works { animation-delay: 0.4s; }
+
+.footer {
+    margin: 2% 10% 10% 10%;
+    padding: 2% 10% 10% 10%;
+    font-family:"リュウミン R-KL";
+    font-size: 0.8em;
+}
+
+h2 {
+    font-family: "IM Fell Great Primer SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    padding-left: 1em;
+}
+
+h2::before {
+    content: "❧";
+    position: absolute;
+    left: 0;
+    color: rgba(200, 150, 120, 0.5);
+    font-size: 0.8em;
+}
+
+img.small {
+    width: 50%;
+    height: auto;
+}
+
+a {
+    text-decoration:none;
+    color: rgb(200, 150, 120);
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    color: rgb(200, 150, 120);
+}
+
+a:hover, a:active {
+    background-color: rgb(255, 252, 250);
+    color: rgba(200, 150, 120, 0.5);
+}
+
+::selection {
+    background-color: rgba(255, 240, 180, 0.8);
+    color: rgb(150, 100, 80);
+}
+
+#menu {
+    font-family: "IM Fell Great Primer SC", "リュウミン R-KL";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.back_to_menu {
+    font-size: 0.8em;
+}
+
+.about_detail {
+    font-size: 0.8em;
+}
+
+#diary {
+    margin: 2% 16% 2% 16%;
+    padding: 2.5% 4% 3% 4%;
+    background: 
+        repeating-linear-gradient(
+            180deg,
+            transparent,
+            transparent 1.8em,
+            rgba(200, 150, 120, 0.08) 1.8em,
+            rgba(200, 150, 120, 0.08) calc(1.8em + 1px)
+        ),
+        rgba(255, 240, 180, 0.5);
+    box-shadow: 
+        0px 0px 0px 10px rgba(255, 240, 180, 0.5),
+        2px 3px 8px rgba(0, 0, 0, 0.1),
+        inset 0 0 20px rgba(255, 255, 255, 0.3);
+    border: double 2px rgba(255, 255, 255, 0.8);
+    line-height: 1.8em;
+}
+
+#diary p {
+    margin-bottom: 1.8em;
+}
+
+#diary p:first-of-type {
+    font-size: 0.85em;
+    color: rgba(180, 140, 130, 0.8);
+    letter-spacing: 0.05em;
+}
+
+a#diary {
+    text-decoration:none;
+    color: rgb(180, 140, 130);
+}
+
+a:link#diary, a:visited#diary {
+    color: rgb(180, 140, 130);
+}
+
+a:hover#diary, a:active#diary {
+    color: rgba(180, 140, 130, 0.5);
+}
+
+.work {
+    margin: 2% 2% 2% 2%;
+    padding: 1% 2% 1% 2%;
+    background-image: linear-gradient(90deg, rgba(255, 240, 180, 0.1) 50%, transparent 50%), linear-gradient(rgba(255, 240, 180, 0.2) 50%, transparent 50%);
+    background-size: 50px 50px;
+}
+
+.work .work_title a:link, a:visited {
+    color: rgb(180, 140, 130);
+}
+
+.work .work_title a:hover, a:active {
+    color: rgba(180, 140, 130, 0.5);
+}
+
+.work .work_description {
+    font-size: 0.8em;
+}
+
+.work_list_detail {
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 1024px) {
+
+.header {
+    margin: 5% 5% 1% 5%;
+    padding: 5% 5% 1% 5%;
+    font-family:"リュウミン R-KL";
+}
+
+.main {
+    margin: 1% 5% 1% 5%;
+    padding: 1% 5% 1% 5%;
+    font-family:"リュウミン R-KL";
+    opacity: 0;
+    animation: gentleFadeIn 0.8s ease forwards;
+}
+
+.footer {
+    margin: 1% 5% 5% 5%;
+    padding: 1% 5% 5% 5%;
+    font-family:"リュウミン R-KL";
+}
+    
+img.small {
+    width: 50%;
+    height: auto;
+}
+
+#diary {
+    margin: 2% 8% 1% 8%;
+    padding: 1.5% 2% 2% 2%;
+    background: 
+        repeating-linear-gradient(
+            180deg,
+            transparent,
+            transparent 1.6em,
+            rgba(200, 150, 120, 0.08) 1.6em,
+            rgba(200, 150, 120, 0.08) calc(1.6em + 1px)
+        ),
+        rgba(255, 240, 180, 0.5);
+    box-shadow: 
+        0px 0px 0px 10px rgba(255, 240, 180, 0.5),
+        2px 3px 8px rgba(0, 0, 0, 0.1),
+        inset 0 0 20px rgba(255, 255, 255, 0.3);
+    border: double 2px rgba(255, 255, 255, 0.8);
+    line-height: 1.6em;
+}
+
+#diary p {
+    margin-bottom: 1.6em;
+}
+
+#diary p:first-of-type {
+    font-size: 0.85em;
+    color: rgba(180, 140, 130, 0.8);
+    letter-spacing: 0.05em;
+}
+
+}
