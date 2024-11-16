@@ -22,7 +22,17 @@ img.small {
 }
 
 #diary {
-    background-color: rgba(240, 235, 250, 0.5);
+/*    background-color: rgba(240, 235, 250, 0.5);*/
+    padding: 0.2em 0.5em;
+    margin: 2em 0;
+    background: rgba(240, 235, 250, 0.5);
+    box-shadow: 0px 0px 0px 10px rgba(240, 235, 250, 0.5);
+    border: dashed 2px white;
+}
+
+#diary p {
+    margin: 0; 
+    padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
