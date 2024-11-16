@@ -43,11 +43,11 @@ a:hover, a:active {
 }
 
 #diary a:link, a:visited {
-    color: rgb(200, 150, 120);
+    color: rgb(170, 130, 120);
 }
 
-#diary a:link, a:visited {
-    color: rgba(200, 150, 120, 0.5);
+#diary a:hover, a:active {
+    color: rgba(170, 130, 120, 0.5);
 }
 
 @media screen and (max-width: 1024px) {
