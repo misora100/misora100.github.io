@@ -33,12 +33,12 @@ a {
     text-decoration:none;
 }
 
-a:link, visited {
+a:link, a visited {
     background-color: rgba(255, 240, 180, 0.5);
-    color: rgb(230, 200, 160, 0.5);
+    color: rgb(230, 200, 160);
 }
 
-a:hover, active {
+a:hover, a active {
     background-color: rgba(255, 240, 180, 0.2);
     color: rgba(230, 200, 160, 0.5);
 }
