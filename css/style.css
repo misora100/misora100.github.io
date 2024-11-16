@@ -23,7 +23,7 @@ img.small {
 
 #diary {
     margin: 2% 16% 2% 16%;
-    padding: 2% 4% 4% 4%;
+    padding: 2% 4% 3% 4%;
     background: rgba(240, 235, 250, 0.5);
     box-shadow: 0px 0px 0px 10px rgba(240, 235, 250, 0.5);
     border: dashed 2px white;
