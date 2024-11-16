@@ -29,6 +29,20 @@ img.small {
     border: dashed 2px white;
 }
 
+a {
+    text-decoration:none;
+}
+
+a:link, visited {
+    background-color: rgba(240, 235, 250, 0.5);
+    color: rgb(50, 0, 100);
+}
+
+a:hover, active {
+    background-color: rgba(240, 235, 250, 0.2);
+    color: rgba(50, 0, 100, 0.5);
+}
+
 @media screen and (max-width: 1024px) {
 
 .header {
