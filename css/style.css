@@ -20,15 +20,6 @@ body {
     animation: gentleFadeIn 0.8s ease forwards;
 }
 
-.main::after {
-    content: "⁂";
-    display: block;
-    text-align: center;
-    margin: 2em 0;
-    color: rgba(200, 150, 120, 0.2);
-    font-size: 2em;
-}
-
 @keyframes gentleFadeIn {
     from {
         opacity: 0;
