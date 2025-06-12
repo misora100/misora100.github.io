@@ -1,11 +1,5 @@
 body {
     background-color: rgb(255, 252, 250);
-    background-image: 
-        radial-gradient(
-            ellipse at top left,
-            rgba(255, 240, 180, 0.1) 0%,
-            transparent 40%
-        );
 }
 
 .header {
