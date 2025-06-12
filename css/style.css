@@ -20,6 +20,15 @@ body {
     animation: gentleFadeIn 0.8s ease forwards;
 }
 
+.main::after {
+    content: "⁂";
+    display: block;
+    text-align: center;
+    margin: 2em 0;
+    color: rgba(200, 150, 120, 0.2);
+    font-size: 0.8em;
+}
+
 @keyframes gentleFadeIn {
     from {
         opacity: 0;
@@ -52,7 +61,7 @@ h2 {
 }
 
 h2::before {
-    content: "❦";  /* または "✿", "◈" など */
+    content: "❧";
     position: absolute;
     left: 0;
     color: rgba(200, 150, 120, 0.5);
