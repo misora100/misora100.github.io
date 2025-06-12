@@ -72,10 +72,26 @@ a:hover, a:active {
 
 #diary {
     margin: 2% 16% 2% 16%;
-    padding: 2% 4% 3% 4%;
-    background: rgba(255, 240, 180, 0.5);
-    box-shadow: 0px 0px 0px 10px rgba(255, 240, 180, 0.5);
+    padding: 2.5% 4% 3% 4%;
+    background: 
+        repeating-linear-gradient(
+            180deg,
+            transparent,
+            transparent 1.8em,
+            rgba(200, 150, 120, 0.08) 1.8em,
+            rgba(200, 150, 120, 0.08) calc(1.8em + 1px)
+        ),
+        rgba(255, 240, 180, 0.5);
+    box-shadow: 
+        0px 0px 0px 10px rgba(255, 240, 180, 0.5),
+        2px 3px 8px rgba(0, 0, 0, 0.1),
+        inset 0 0 20px rgba(255, 255, 255, 0.3);
     border: double 2px rgba(255, 255, 255, 0.8);
+    line-height: 1.8em;
+}
+
+#diary p {
+    margin-bottom: 1.8em;
 }
 
 a#diary {
