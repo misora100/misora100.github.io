@@ -1,15 +1,10 @@
-body{
+body {
     background-color: rgb(255, 252, 250);
     background-image: 
         radial-gradient(
-            circle at 20% 50%,
-            rgba(255, 240, 180, 0.05) 0%,
-            transparent 50%
-        ),
-        radial-gradient(
-            circle at 80% 80%,
-            rgba(255, 235, 170, 0.05) 0%,
-            transparent 50%
+            ellipse at top left,
+            rgba(255, 240, 180, 0.1) 0%,
+            transparent 40%
         );
 }
 
