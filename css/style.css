@@ -47,6 +47,16 @@ h2 {
     font-family: "IM Fell Great Primer SC", serif;
     font-weight: 400;
     font-style: normal;
+    position: relative;
+    padding-left: 1em;
+}
+
+h2::before {
+    content: "❦";  /* または "✿", "◈" など */
+    position: absolute;
+    left: 0;
+    color: rgba(200, 150, 120, 0.5);
+    font-size: 0.8em;
 }
 
 img.small {
