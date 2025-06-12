@@ -123,6 +123,12 @@ a:hover, a:active {
     margin-bottom: 1.8em;
 }
 
+#diary p:first-of-type {
+    font-size: 0.85em;
+    color: rgba(180, 140, 130, 0.8);
+    letter-spacing: 0.05em;
+}
+
 a#diary {
     text-decoration:none;
     color: rgb(180, 140, 130);
