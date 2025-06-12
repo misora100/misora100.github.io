@@ -16,9 +16,6 @@ body{
     margin: 2% 10% 2% 10%;
     padding: 2% 10% 2% 10%;
     font-family:"リュウミン R-KL";
-}
-
-.main {
     opacity: 0;
     animation: gentleFadeIn 0.8s ease forwards;
 }
@@ -163,6 +160,19 @@ a:hover#diary, a:active#diary {
     margin: 1% 5% 1% 5%;
     padding: 1% 5% 1% 5%;
     font-family:"リュウミン R-KL";
+    opacity: 0;
+    animation: gentleFadeIn 0.8s ease forwards;
+}
+
+@keyframes gentleFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .footer {
