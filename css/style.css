@@ -157,10 +157,26 @@ img.small {
 
 #diary {
     margin: 2% 8% 1% 8%;
-    padding: 1% 2% 2% 2%;
-    background: rgba(255, 240, 180, 0.5);
-    box-shadow: 0px 0px 0px 10px rgba(255, 240, 180, 0.5);
+    padding: 1.5% 2% 2% 2%;
+    background: 
+        repeating-linear-gradient(
+            180deg,
+            transparent,
+            transparent 1.6em,
+            rgba(200, 150, 120, 0.08) 1.6em,
+            rgba(200, 150, 120, 0.08) calc(1.6em + 1px)
+        ),
+        rgba(255, 240, 180, 0.5);
+    box-shadow: 
+        0px 0px 0px 10px rgba(255, 240, 180, 0.5),
+        2px 3px 8px rgba(0, 0, 0, 0.1),
+        inset 0 0 20px rgba(255, 255, 255, 0.3);
     border: double 2px rgba(255, 255, 255, 0.8);
+    line-height: 1.6em;
+}
+
+#diary p {
+    margin-bottom: 1.6em;
 }
     
 }
