@@ -18,6 +18,27 @@ body{
     font-family:"リュウミン R-KL";
 }
 
+.main {
+    opacity: 0;
+    animation: gentleFadeIn 0.8s ease forwards;
+}
+
+@keyframes gentleFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 各セクションを順番に表示 */
+.main:nth-child(2) { animation-delay: 0.1s; }
+.main:nth-child(3) { animation-delay: 0.2s; }
+.main:nth-child(4) { animation-delay: 0.3s; }
+
 .footer {
     margin: 2% 10% 10% 10%;
     padding: 2% 10% 10% 10%;
