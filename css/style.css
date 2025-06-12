@@ -26,7 +26,7 @@ body {
     text-align: center;
     margin: 2em 0;
     color: rgba(200, 150, 120, 0.2);
-    font-size: 0.8em;
+    font-size: 2em;
 }
 
 @keyframes gentleFadeIn {
