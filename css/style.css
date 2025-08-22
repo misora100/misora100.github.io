@@ -18,6 +18,7 @@ body {
     font-family:"リュウミン R-KL";
     opacity: 0;
     animation: gentleFadeIn 0.8s ease forwards;
+    font-feature-settings: "palt" 1; 
 }
 
 @keyframes gentleFadeIn {
@@ -118,6 +119,7 @@ a:hover, a:active {
         inset 0 0 20px rgba(255, 255, 255, 0.3);
     border: double 2px rgba(255, 255, 255, 0.8);
     line-height: 1.8em;
+    font-feature-settings: "palt" 1; 
 }
 
 #diary p {
@@ -148,6 +150,7 @@ a:hover#diary, a:active#diary {
     padding: 1% 2% 1% 2%;
     background-image: linear-gradient(90deg, rgba(255, 240, 180, 0.1) 50%, transparent 50%), linear-gradient(rgba(255, 240, 180, 0.2) 50%, transparent 50%);
     background-size: 50px 50px;
+    font-feature-settings: "palt" 1; 
 }
 
 .work .work_title a:link, a:visited {
@@ -180,6 +183,7 @@ a:hover#diary, a:active#diary {
     font-family:"リュウミン R-KL";
     opacity: 0;
     animation: gentleFadeIn 0.8s ease forwards;
+    font-feature-settings: "palt" 1; 
 }
 
 .footer {
@@ -211,6 +215,7 @@ img.small {
         inset 0 0 20px rgba(255, 255, 255, 0.3);
     border: double 2px rgba(255, 255, 255, 0.8);
     line-height: 1.6em;
+    font-feature-settings: "palt" 1; 
 }
 
 #diary p {
