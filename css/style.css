@@ -6,7 +6,7 @@ body {
     margin: 10% 10% 2% 10%;
     padding: 10% 10% 2% 10%;
     font-family:"リュウミン R-KL";
-    font-feature-settings: "palt" 1;
+    font-feature-settings: "palt" 1; 
 }
 
 .header p {
@@ -45,6 +45,7 @@ body {
     padding: 2% 10% 10% 10%;
     font-family:"リュウミン R-KL";
     font-size: 0.8em;
+    font-feature-settings: "palt" 1; 
 }
 
 h2 {
@@ -192,6 +193,7 @@ a:hover#diary, a:active#diary {
     margin: 1% 5% 5% 5%;
     padding: 1% 5% 5% 5%;
     font-family:"リュウミン R-KL";
+    font-feature-settings: "palt" 1; 
 }
     
 img.small {
