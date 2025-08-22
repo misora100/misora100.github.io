@@ -20,6 +20,7 @@ body {
     opacity: 0;
     animation: gentleFadeIn 0.8s ease forwards;
     font-feature-settings: "palt" 1;
+    text-indent: 1em;
 }
 
 @keyframes gentleFadeIn {
