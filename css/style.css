@@ -68,12 +68,12 @@ img.small {
 
 a {
     text-decoration:none;
-    color: rgb(200, 150, 120);
+    color: rgb(180, 130, 100);
     cursor: pointer;
 }
 
 a:link, a:visited {
-    color: rgb(200, 150, 120);
+    color: rgb(180, 130, 100);
 }
 
 a:hover, a:active {
@@ -132,11 +132,11 @@ a:hover, a:active {
 
 a#diary {
     text-decoration:none;
-    color: rgb(180, 140, 130);
+    color: rgb(160, 120, 90);
 }
 
 a:link#diary, a:visited#diary {
-    color: rgb(180, 140, 130);
+    color: rgb(160, 120, 90);
 }
 
 a:hover#diary, a:active#diary {
@@ -151,7 +151,7 @@ a:hover#diary, a:active#diary {
 }
 
 .work .work_title a:link, a:visited {
-    color: rgb(180, 140, 130);
+    color: rgb(160, 120, 90);
 }
 
 .work .work_title a:hover, a:active {
