@@ -6,7 +6,6 @@ body {
     margin: 10% 10% 2% 10%;
     padding: 10% 10% 2% 10%;
     font-family:"リュウミン R-KL";
-    font-feature-settings: "palt" 1;
 }
 
 .header p {
@@ -19,8 +18,6 @@ body {
     font-family:"リュウミン R-KL";
     opacity: 0;
     animation: gentleFadeIn 0.8s ease forwards;
-    font-feature-settings: "palt" 1;
-    text-indent: 1em;
 }
 
 @keyframes gentleFadeIn {
@@ -46,7 +43,6 @@ body {
     padding: 2% 10% 10% 10%;
     font-family:"リュウミン R-KL";
     font-size: 0.8em;
-    font-feature-settings: "palt" 1;
 }
 
 h2 {
@@ -122,7 +118,6 @@ a:hover, a:active {
         inset 0 0 20px rgba(255, 255, 255, 0.3);
     border: double 2px rgba(255, 255, 255, 0.8);
     line-height: 1.8em;
-    font-feature-settings: "palt" 1;
 }
 
 #diary p {
@@ -153,7 +148,6 @@ a:hover#diary, a:active#diary {
     padding: 1% 2% 1% 2%;
     background-image: linear-gradient(90deg, rgba(255, 240, 180, 0.1) 50%, transparent 50%), linear-gradient(rgba(255, 240, 180, 0.2) 50%, transparent 50%);
     background-size: 50px 50px;
-    font-feature-settings: "palt" 1;
 }
 
 .work .work_title a:link, a:visited {
@@ -178,7 +172,6 @@ a:hover#diary, a:active#diary {
     margin: 5% 5% 1% 5%;
     padding: 5% 5% 1% 5%;
     font-family:"リュウミン R-KL";
-    font-feature-settings: "palt" 1;
 }
 
 .main {
@@ -187,14 +180,12 @@ a:hover#diary, a:active#diary {
     font-family:"リュウミン R-KL";
     opacity: 0;
     animation: gentleFadeIn 0.8s ease forwards;
-    font-feature-settings: "palt" 1;
 }
 
 .footer {
     margin: 1% 5% 5% 5%;
     padding: 1% 5% 5% 5%;
     font-family:"リュウミン R-KL";
-    font-feature-settings: "palt" 1;
 }
     
 img.small {
@@ -220,7 +211,6 @@ img.small {
         inset 0 0 20px rgba(255, 255, 255, 0.3);
     border: double 2px rgba(255, 255, 255, 0.8);
     line-height: 1.6em;
-    font-feature-settings: "palt" 1; 
 }
 
 #diary p {
