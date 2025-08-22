@@ -126,7 +126,7 @@ a:hover, a:active {
 
 #diary p:first-of-type {
     font-size: 0.85em;
-    color: rgba(180, 140, 130, 0.8);
+    color: rgb(160, 120, 90, 0.8);
     letter-spacing: 0.05em;
 }
 
@@ -219,7 +219,7 @@ img.small {
 
 #diary p:first-of-type {
     font-size: 0.85em;
-    color: rgba(180, 140, 130, 0.8);
+    color: rgb(160, 120, 90, 0.8);
     letter-spacing: 0.05em;
 }
 
