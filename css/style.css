@@ -124,7 +124,7 @@ a:hover, a:active {
     margin-bottom: 1.8em;
 }
 
-#diary .past_diary p {
+.past_diary p {
     font-size: 0.85em;
     color: rgb(140, 100, 80, 0.8);
     letter-spacing: 0.05em;
