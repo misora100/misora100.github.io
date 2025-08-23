@@ -122,48 +122,47 @@ a:hover, a:active {
 
 #diary p {
     margin-bottom: 1.8em;
-    font-size: 1em;
 }
 
-#diary p:first-of-type {
+#diary .past_daiary p {
     font-size: 0.85em;
     color: rgb(140, 100, 80, 0.8);
     letter-spacing: 0.05em;
 }
 
-a#diary {
+#diary a {
     text-decoration:none;
     color: rgb(160, 120, 90);
 }
 
-a:link#diary, a:visited#diary {
+#diary a:link, a:visited {
     color: rgb(160, 120, 90);
 }
 
-a:hover#diary, a:active#diary {
+#diary a:hover, a:active {
     color: rgba(180, 140, 130, 0.5);
 }
 
-.work {
+#work {
     margin: 2% 2% 2% 2%;
     padding: 1% 2% 1% 2%;
     background-image: linear-gradient(90deg, rgba(255, 240, 180, 0.1) 50%, transparent 50%), linear-gradient(rgba(255, 240, 180, 0.2) 50%, transparent 50%);
     background-size: 50px 50px;
 }
 
-.work .work_title a:link, a:visited {
+#work .work_title a:link, a:visited {
     color: rgb(160, 120, 90);
 }
 
-.work .work_title a:hover, a:active {
+#work .work_title a:hover, a:active {
     color: rgba(180, 140, 130, 0.5);
 }
 
-.work .work_description {
+#work .work_description {
     font-size: 0.8em;
 }
 
-.work_list_detail {
+#work_list_detail {
     font-size: 0.8em;
 }
 
@@ -218,7 +217,7 @@ img.small {
     margin-bottom: 1.6em;
 }
 
-#diary p:first-of-type {
+#diary .past_daiary p {
     font-size: 0.85em;
     color: rgb(140, 100, 80, 0.8);
     letter-spacing: 0.05em;
