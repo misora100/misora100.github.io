@@ -122,6 +122,7 @@ a:hover, a:active {
 
 #diary p {
     margin-bottom: 1.8em;
+    font-size: 1em;
 }
 
 #diary p:first-of-type {
